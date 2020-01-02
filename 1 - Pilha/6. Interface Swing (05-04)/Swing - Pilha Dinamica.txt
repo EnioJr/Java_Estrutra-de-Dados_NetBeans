@@ -1,0 +1,8 @@
+----------------
+==== SWING ====
+----------------
+
+Swing é um widget toolkit GUI (Interface de Usuário Gráfica) para uso com o Java. A API Swing procura renderizar/desenhar por conta própria todos os componentes, ao invés de delegar essa tarefa ao sistema operacional, como a maioria das outras APIs de interface gráfica trabalham. Por ser uma API de mais alto nível, ou seja, mais abstração, menor aproximação das APIs do sistema operacional, ela tem bem menos performance que outras APIs gráficas e consome mais memória RAM em geral. Porém, ela é bem mais completa, e os programas que usam Swing têm uma aparência muito parecida, independente do Sistema Operacional utilizado.
+Porém o JavaFX é mais atual que o Swing, sendo uma plataforma de software multimídia desenvolvida pela Oracle para a criação e disponibilização de Aplicação Rica para Internet que pode ser executada em vários dispositivos diferentes.
+
+Criar uma interface em Swing para a Pilha Dinâmica.

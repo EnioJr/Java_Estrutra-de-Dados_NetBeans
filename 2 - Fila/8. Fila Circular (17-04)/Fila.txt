@@ -1,0 +1,27 @@
+------------------------
+==== Fila Circular ====
+------------------------
+
+No caso da fila dinâmica, perdemos os dados quando removidos, por outro lado, na fila circular dinâmica não temos este problema, 
+pois não ocorre a perca dos dados, apenas são alterados os indicadores de inicio e fim da fila. Apenas são realocados os ponteiros.
+Na fila o valor entra por um lado e sai pelo outro, segue o padrão de uma fila de banco, por isso que se fala pilha "circular".
+A fila tem a característica de "não ter fim". É como se as pontas da fila ficassem ligadas, fechando um ciclo sem fim.
+Ela pode possuir um buffer, onde caso atingido seu valor, a pilha não pode ter mais elementos. Ocasionando na retirada do primeiro da fila e a inserção do novo.
+
+Exemplo:
+buffer=4;
+insere(1);insere(2);insere(3);insere(4);
+--> 1 2 3 4
+insere(5);
+--> 2 3 4 5
+insere(6);
+--> 3 4 5 6
+remove();
+--> 4 5 6
+remove();
+--> 5 6
+
+Modificar a Fila simples para simular uma fila de impressão:
+- Inserir na fila de impressão
+- Enviar para impressora
+(deve ter controle de buffer para uma fila de 5 elementos)

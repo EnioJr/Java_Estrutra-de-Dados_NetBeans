@@ -1,0 +1,24 @@
+---------------
+==== Fila ====			First In First Out(Primeiro a entra Primeiro a sair)
+---------------
+
+É uma lista linear em que a inserção é feita numa extremidade e a eliminação na outra.
+Um ponto de inserção (FIM) e um de deleção (INICIO). 
+É do tipo FIFO (first in, first out).
+Exemplos:
+-Escalonamento de serviços: fila de processos aguardando os recursos do sistema operacional.
+-Fila de pacotes a serem transmitidos numa rede de comutação de pacotes.
+-Simulação: fila de caixa em banco.
+
+MECANISMO
+
+|¨¨¨¨|¨¨¨¨|  |¨¨¨¨|¨¨¨¨|
+|data|pro |->|data|pro |
+|____|____|  |____|____|
+ ^inicio ^fim
+
+Criar os métodos para:
+- Fila Vazia
+- Inserir Elemento
+- Remover Elemento
+- Imprimir Fila
